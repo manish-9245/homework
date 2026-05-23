@@ -1,0 +1,32 @@
+{
+  "name": "ishicodes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sync-solutions": "mkdir -p solutions && cp -r ../solutions/* ./solutions/",
+    "build": "next build",
+    "start": "next start",
+    "dev": "next dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "dotenv": "^17.4.2",
+    "jose": "^6.2.3",
+    "mysql2": "^3.22.3",
+    "next": "^16.2.6",
+    "node-cron": "^4.2.1",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
+    "simple-git": "^3.36.0"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.15",
+    "typescript": "6.0.3"
+  }
+}

@@ -1,0 +1,1506 @@
+{
+  "questions": [
+    {
+      "day": 1,
+      "question_no": "Q1",
+      "problem_statement": "Calculate sum of first N natural numbers.",
+      "companies": [
+        "TCS",
+        "Infosys",
+        "Wipro"
+      ]
+    },
+    {
+      "day": 1,
+      "question_no": "Q2",
+      "problem_statement": "Print multiplication table of a given number.",
+      "companies": [
+        "TCS",
+        "Infosys",
+        "Wipro"
+      ]
+    },
+    {
+      "day": 1,
+      "question_no": "Q3",
+      "problem_statement": "Find factorial of a number.",
+      "companies": [
+        "TCS",
+        "Infosys",
+        "Wipro"
+      ]
+    },
+    {
+      "day": 1,
+      "question_no": "Q4",
+      "problem_statement": "Count digits in a number.",
+      "companies": [
+        "TCS",
+        "Infosys",
+        "Wipro"
+      ]
+    },
+    {
+      "day": 2,
+      "question_no": "Q5",
+      "problem_statement": "Find sum of digits of a number.",
+      "companies": [
+        "TCS",
+        "Infosys",
+        "Wipro"
+      ]
+    },
+    {
+      "day": 2,
+      "question_no": "Q6",
+      "problem_statement": "Reverse a number.",
+      "companies": [
+        "TCS",
+        "Infosys",
+        "Wipro"
+      ]
+    },
+    {
+      "day": 2,
+      "question_no": "Q7",
+      "problem_statement": "Find product of digits.",
+      "companies": [
+        "TCS",
+        "Infosys",
+        "Wipro"
+      ]
+    },
+    {
+      "day": 2,
+      "question_no": "Q8",
+      "problem_statement": "Check whether a number is palindrome.",
+      "companies": [
+        "TCS",
+        "Infosys",
+        "Wipro"
+      ]
+    },
+    {
+      "day": 3,
+      "question_no": "Q9",
+      "problem_statement": "Check whether a number is prime.",
+      "companies": [
+        "TCS",
+        "Infosys",
+        "Wipro"
+      ]
+    },
+    {
+      "day": 3,
+      "question_no": "Q10",
+      "problem_statement": "Print prime numbers in a range.",
+      "companies": [
+        "TCS",
+        "Infosys",
+        "Wipro"
+      ]
+    },
+    {
+      "day": 3,
+      "question_no": "Q11",
+      "problem_statement": "Find GCD of two numbers.",
+      "companies": [
+        "TCS",
+        "Infosys",
+        "Wipro"
+      ]
+    },
+    {
+      "day": 3,
+      "question_no": "Q12",
+      "problem_statement": "Find LCM of two numbers.",
+      "companies": [
+        "TCS",
+        "Infosys",
+        "Wipro"
+      ]
+    },
+    {
+      "day": 4,
+      "question_no": "Q13",
+      "problem_statement": "Generate Fibonacci series.",
+      "companies": [
+        "TCS",
+        "Infosys",
+        "Wipro"
+      ]
+    },
+    {
+      "day": 4,
+      "question_no": "Q14",
+      "problem_statement": "Find nth Fibonacci term.",
+      "companies": [
+        "TCS",
+        "Infosys",
+        "Wipro"
+      ]
+    },
+    {
+      "day": 4,
+      "question_no": "Q15",
+      "problem_statement": "Check Armstrong number.",
+      "companies": [
+        "TCS",
+        "Infosys",
+        "Wipro"
+      ]
+    },
+    {
+      "day": 4,
+      "question_no": "Q16",
+      "problem_statement": "Print Armstrong numbers in a range.",
+      "companies": [
+        "TCS",
+        "Infosys",
+        "Wipro"
+      ]
+    },
+    {
+      "day": 5,
+      "question_no": "Q17",
+      "problem_statement": "Check perfect number.",
+      "companies": [
+        "TCS",
+        "Infosys",
+        "Wipro"
+      ]
+    },
+    {
+      "day": 5,
+      "question_no": "Q18",
+      "problem_statement": "Check strong number.",
+      "companies": [
+        "TCS",
+        "Infosys",
+        "Wipro"
+      ]
+    },
+    {
+      "day": 5,
+      "question_no": "Q19",
+      "problem_statement": "Print factors of a number.",
+      "companies": [
+        "TCS",
+        "Infosys",
+        "Wipro"
+      ]
+    },
+    {
+      "day": 5,
+      "question_no": "Q20",
+      "problem_statement": "Find largest prime factor.",
+      "companies": [
+        "TCS",
+        "Infosys",
+        "Wipro"
+      ]
+    },
+    {
+      "day": 6,
+      "question_no": "Q21",
+      "problem_statement": "Convert decimal to binary.",
+      "companies": [
+        "TCS",
+        "Infosys",
+        "Wipro"
+      ]
+    },
+    {
+      "day": 6,
+      "question_no": "Q22",
+      "problem_statement": "Convert binary to decimal.",
+      "companies": [
+        "TCS",
+        "Infosys",
+        "Wipro"
+      ]
+    },
+    {
+      "day": 6,
+      "question_no": "Q23",
+      "problem_statement": "Count set bits in a number.",
+      "companies": [
+        "TCS",
+        "Infosys",
+        "Wipro"
+      ]
+    },
+    {
+      "day": 6,
+      "question_no": "Q24",
+      "problem_statement": "Find x^n without pow().",
+      "companies": [
+        "TCS",
+        "Infosys",
+        "Wipro"
+      ]
+    },
+    {
+      "day": 7,
+      "question_no": "Q25",
+      "problem_statement": "Recursive factorial.",
+      "companies": [
+        "TCS",
+        "Infosys",
+        "Wipro"
+      ]
+    },
+    {
+      "day": 7,
+      "question_no": "Q26",
+      "problem_statement": "Recursive Fibonacci.",
+      "companies": [
+        "TCS",
+        "Infosys",
+        "Wipro"
+      ]
+    },
+    {
+      "day": 7,
+      "question_no": "Q27",
+      "problem_statement": "Recursive sum of digits.",
+      "companies": [
+        "TCS",
+        "Infosys",
+        "Wipro"
+      ]
+    },
+    {
+      "day": 7,
+      "question_no": "Q28",
+      "problem_statement": "Recursive reverse number.",
+      "companies": [
+        "TCS",
+        "Infosys",
+        "Wipro"
+      ]
+    },
+    {
+      "day": 8,
+      "question_no": "Q29",
+      "problem_statement": "Print half pyramid pattern.",
+      "companies": [
+        "TCS",
+        "Infosys",
+        "Wipro"
+      ]
+    },
+    {
+      "day": 8,
+      "question_no": "Q30",
+      "problem_statement": "Print number triangle:\n1\n12\n123\n1234\n12345",
+      "companies": [
+        "TCS",
+        "Infosys",
+        "Wipro"
+      ]
+    },
+    {
+      "day": 8,
+      "question_no": "Q31",
+      "problem_statement": "Print character triangle:\nA\nAB\nABC\nABCD\nABCDE",
+      "companies": [
+        "Microsoft",
+        "Adobe",
+        "Paytm"
+      ]
+    },
+    {
+      "day": 8,
+      "question_no": "Q32",
+      "problem_statement": "Print repeated-number pattern:\n1\n22\n333\n4444\n55555",
+      "companies": [
+        "TCS",
+        "Infosys",
+        "Wipro"
+      ]
+    },
+    {
+      "day": 9,
+      "question_no": "Q33",
+      "problem_statement": "Print reverse star pattern:\n*****\n****\n***\n**\n*",
+      "companies": [
+        "TCS",
+        "Infosys",
+        "Wipro"
+      ]
+    },
+    {
+      "day": 9,
+      "question_no": "Q34",
+      "problem_statement": "Print reverse number triangle:\n12345\n1234\n123\n12\n1",
+      "companies": [
+        "TCS",
+        "Infosys",
+        "Wipro"
+      ]
+    },
+    {
+      "day": 9,
+      "question_no": "Q35",
+      "problem_statement": "Print repeated character pattern:\nA\nBB\nCCC\nDDDD\nEEEEE",
+      "companies": [
+        "Microsoft",
+        "Adobe",
+        "Paytm"
+      ]
+    },
+    {
+      "day": 9,
+      "question_no": "Q36",
+      "problem_statement": "Print hollow square pattern:\n*****\n*   *\n*   *\n*   *\n*****",
+      "companies": [
+        "TCS",
+        "Infosys",
+        "Wipro"
+      ]
+    },
+    {
+      "day": 10,
+      "question_no": "Q37",
+      "problem_statement": "Print star pyramid.",
+      "companies": [
+        "TCS",
+        "Infosys",
+        "Wipro"
+      ]
+    },
+    {
+      "day": 10,
+      "question_no": "Q38",
+      "problem_statement": "Print reverse pyramid.",
+      "companies": [
+        "TCS",
+        "Infosys",
+        "Wipro"
+      ]
+    },
+    {
+      "day": 10,
+      "question_no": "Q39",
+      "problem_statement": "Print number pyramid.",
+      "companies": [
+        "TCS",
+        "Infosys",
+        "Wipro"
+      ]
+    },
+    {
+      "day": 10,
+      "question_no": "Q40",
+      "problem_statement": "Print character pyramid.",
+      "companies": [
+        "Microsoft",
+        "Adobe",
+        "Paytm"
+      ]
+    },
+    {
+      "day": 11,
+      "question_no": "Q41",
+      "problem_statement": "Write function to find sum of two numbers.",
+      "companies": [
+        "TCS",
+        "Infosys",
+        "Wipro"
+      ]
+    },
+    {
+      "day": 11,
+      "question_no": "Q42",
+      "problem_statement": "Write function to find maximum.",
+      "companies": [
+        "TCS",
+        "Infosys",
+        "Wipro"
+      ]
+    },
+    {
+      "day": 11,
+      "question_no": "Q43",
+      "problem_statement": "Write function to check prime.",
+      "companies": [
+        "TCS",
+        "Infosys",
+        "Wipro"
+      ]
+    },
+    {
+      "day": 11,
+      "question_no": "Q44",
+      "problem_statement": "Write function to find factorial.",
+      "companies": [
+        "TCS",
+        "Infosys",
+        "Wipro"
+      ]
+    },
+    {
+      "day": 12,
+      "question_no": "Q45",
+      "problem_statement": "Write function for palindrome.",
+      "companies": [
+        "TCS",
+        "Infosys",
+        "Wipro"
+      ]
+    },
+    {
+      "day": 12,
+      "question_no": "Q46",
+      "problem_statement": "Write function for Armstrong.",
+      "companies": [
+        "TCS",
+        "Infosys",
+        "Wipro"
+      ]
+    },
+    {
+      "day": 12,
+      "question_no": "Q47",
+      "problem_statement": "Write function for Fibonacci.",
+      "companies": [
+        "TCS",
+        "Infosys",
+        "Wipro"
+      ]
+    },
+    {
+      "day": 12,
+      "question_no": "Q48",
+      "problem_statement": "Write function for perfect number.",
+      "companies": [
+        "TCS",
+        "Infosys",
+        "Wipro"
+      ]
+    },
+    {
+      "day": 13,
+      "question_no": "Q49",
+      "problem_statement": "Input and display array.",
+      "companies": [
+        "Amazon",
+        "Deloitte",
+        "Capgemini"
+      ]
+    },
+    {
+      "day": 13,
+      "question_no": "Q50",
+      "problem_statement": "Find sum and average of array.",
+      "companies": [
+        "Amazon",
+        "Deloitte",
+        "Capgemini"
+      ]
+    },
+    {
+      "day": 13,
+      "question_no": "Q51",
+      "problem_statement": "Find largest and smallest element.",
+      "companies": [
+        "TCS",
+        "Infosys",
+        "Wipro"
+      ]
+    },
+    {
+      "day": 13,
+      "question_no": "Q52",
+      "problem_statement": "Count even and odd elements.",
+      "companies": [
+        "TCS",
+        "Infosys",
+        "Wipro"
+      ]
+    },
+    {
+      "day": 14,
+      "question_no": "Q53",
+      "problem_statement": "Linear search.",
+      "companies": [
+        "Amazon",
+        "Deloitte",
+        "Capgemini"
+      ]
+    },
+    {
+      "day": 14,
+      "question_no": "Q54",
+      "problem_statement": "Frequency of an element.",
+      "companies": [
+        "TCS",
+        "Infosys",
+        "Wipro"
+      ]
+    },
+    {
+      "day": 14,
+      "question_no": "Q55",
+      "problem_statement": "Second largest element.",
+      "companies": [
+        "TCS",
+        "Infosys",
+        "Wipro"
+      ]
+    },
+    {
+      "day": 14,
+      "question_no": "Q56",
+      "problem_statement": "Find duplicates in array.",
+      "companies": [
+        "Amazon",
+        "Deloitte",
+        "Capgemini"
+      ]
+    },
+    {
+      "day": 15,
+      "question_no": "Q57",
+      "problem_statement": "Reverse array.",
+      "companies": [
+        "Amazon",
+        "Deloitte",
+        "Capgemini"
+      ]
+    },
+    {
+      "day": 15,
+      "question_no": "Q58",
+      "problem_statement": "Rotate array left.",
+      "companies": [
+        "Amazon",
+        "Deloitte",
+        "Capgemini"
+      ]
+    },
+    {
+      "day": 15,
+      "question_no": "Q59",
+      "problem_statement": "Rotate array right.",
+      "companies": [
+        "Amazon",
+        "Deloitte",
+        "Capgemini"
+      ]
+    },
+    {
+      "day": 15,
+      "question_no": "Q60",
+      "problem_statement": "Move zeroes to end.",
+      "companies": [
+        "TCS",
+        "Infosys",
+        "Wipro"
+      ]
+    },
+    {
+      "day": 16,
+      "question_no": "Q61",
+      "problem_statement": "Find missing number in array.",
+      "companies": [
+        "Amazon",
+        "Deloitte",
+        "Capgemini"
+      ]
+    },
+    {
+      "day": 16,
+      "question_no": "Q62",
+      "problem_statement": "Find maximum frequency element.",
+      "companies": [
+        "TCS",
+        "Infosys",
+        "Wipro"
+      ]
+    },
+    {
+      "day": 16,
+      "question_no": "Q63",
+      "problem_statement": "Find pair with given sum.",
+      "companies": [
+        "TCS",
+        "Infosys",
+        "Wipro"
+      ]
+    },
+    {
+      "day": 16,
+      "question_no": "Q64",
+      "problem_statement": "Remove duplicates from array.",
+      "companies": [
+        "Amazon",
+        "Deloitte",
+        "Capgemini"
+      ]
+    },
+    {
+      "day": 17,
+      "question_no": "Q65",
+      "problem_statement": "Merge arrays.",
+      "companies": [
+        "Amazon",
+        "Deloitte",
+        "Capgemini"
+      ]
+    },
+    {
+      "day": 17,
+      "question_no": "Q66",
+      "problem_statement": "Union of arrays.",
+      "companies": [
+        "Amazon",
+        "Deloitte",
+        "Capgemini"
+      ]
+    },
+    {
+      "day": 17,
+      "question_no": "Q67",
+      "problem_statement": "Intersection of arrays.",
+      "companies": [
+        "Amazon",
+        "Deloitte",
+        "Capgemini"
+      ]
+    },
+    {
+      "day": 17,
+      "question_no": "Q68",
+      "problem_statement": "Find common elements.",
+      "companies": [
+        "TCS",
+        "Infosys",
+        "Wipro"
+      ]
+    },
+    {
+      "day": 18,
+      "question_no": "Q69",
+      "problem_statement": "Bubble sort.",
+      "companies": [
+        "Amazon",
+        "Deloitte",
+        "Capgemini"
+      ]
+    },
+    {
+      "day": 18,
+      "question_no": "Q70",
+      "problem_statement": "Selection sort.",
+      "companies": [
+        "Amazon",
+        "Deloitte",
+        "Capgemini"
+      ]
+    },
+    {
+      "day": 18,
+      "question_no": "Q71",
+      "problem_statement": "Binary search.",
+      "companies": [
+        "Amazon",
+        "Deloitte",
+        "Capgemini"
+      ]
+    },
+    {
+      "day": 18,
+      "question_no": "Q72",
+      "problem_statement": "Sort array in descending order.",
+      "companies": [
+        "Amazon",
+        "Deloitte",
+        "Capgemini"
+      ]
+    },
+    {
+      "day": 19,
+      "question_no": "Q73",
+      "problem_statement": "Add matrices.",
+      "companies": [
+        "TCS",
+        "Infosys",
+        "Wipro"
+      ]
+    },
+    {
+      "day": 19,
+      "question_no": "Q74",
+      "problem_statement": "Subtract matrices.",
+      "companies": [
+        "TCS",
+        "Infosys",
+        "Wipro"
+      ]
+    },
+    {
+      "day": 19,
+      "question_no": "Q75",
+      "problem_statement": "Transpose matrix.",
+      "companies": [
+        "TCS",
+        "Infosys",
+        "Wipro"
+      ]
+    },
+    {
+      "day": 19,
+      "question_no": "Q76",
+      "problem_statement": "Find diagonal sum.",
+      "companies": [
+        "TCS",
+        "Infosys",
+        "Wipro"
+      ]
+    },
+    {
+      "day": 20,
+      "question_no": "Q77",
+      "problem_statement": "Multiply matrices.",
+      "companies": [
+        "TCS",
+        "Infosys",
+        "Wipro"
+      ]
+    },
+    {
+      "day": 20,
+      "question_no": "Q78",
+      "problem_statement": "Check symmetric matrix.",
+      "companies": [
+        "TCS",
+        "Infosys",
+        "Wipro"
+      ]
+    },
+    {
+      "day": 20,
+      "question_no": "Q79",
+      "problem_statement": "Find row-wise sum.",
+      "companies": [
+        "TCS",
+        "Infosys",
+        "Wipro"
+      ]
+    },
+    {
+      "day": 20,
+      "question_no": "Q80",
+      "problem_statement": "Find column-wise sum.",
+      "companies": [
+        "TCS",
+        "Infosys",
+        "Wipro"
+      ]
+    },
+    {
+      "day": 21,
+      "question_no": "Q81",
+      "problem_statement": "Find string length without strlen().",
+      "companies": [
+        "Microsoft",
+        "Adobe",
+        "Paytm"
+      ]
+    },
+    {
+      "day": 21,
+      "question_no": "Q82",
+      "problem_statement": "Reverse a string.",
+      "companies": [
+        "Microsoft",
+        "Adobe",
+        "Paytm"
+      ]
+    },
+    {
+      "day": 21,
+      "question_no": "Q83",
+      "problem_statement": "Count vowels and consonants.",
+      "companies": [
+        "TCS",
+        "Infosys",
+        "Wipro"
+      ]
+    },
+    {
+      "day": 21,
+      "question_no": "Q84",
+      "problem_statement": "Convert lowercase to uppercase.",
+      "companies": [
+        "TCS",
+        "Infosys",
+        "Wipro"
+      ]
+    },
+    {
+      "day": 22,
+      "question_no": "Q85",
+      "problem_statement": "Check palindrome string.",
+      "companies": [
+        "Microsoft",
+        "Adobe",
+        "Paytm"
+      ]
+    },
+    {
+      "day": 22,
+      "question_no": "Q86",
+      "problem_statement": "Count words in a sentence.",
+      "companies": [
+        "TCS",
+        "Infosys",
+        "Wipro"
+      ]
+    },
+    {
+      "day": 22,
+      "question_no": "Q87",
+      "problem_statement": "Character frequency.",
+      "companies": [
+        "Microsoft",
+        "Adobe",
+        "Paytm"
+      ]
+    },
+    {
+      "day": 22,
+      "question_no": "Q88",
+      "problem_statement": "Remove spaces from string.",
+      "companies": [
+        "Microsoft",
+        "Adobe",
+        "Paytm"
+      ]
+    },
+    {
+      "day": 23,
+      "question_no": "Q89",
+      "problem_statement": "Find first non-repeating character.",
+      "companies": [
+        "Microsoft",
+        "Adobe",
+        "Paytm"
+      ]
+    },
+    {
+      "day": 23,
+      "question_no": "Q90",
+      "problem_statement": "Find first repeating character.",
+      "companies": [
+        "Microsoft",
+        "Adobe",
+        "Paytm"
+      ]
+    },
+    {
+      "day": 23,
+      "question_no": "Q91",
+      "problem_statement": "Check anagram strings.",
+      "companies": [
+        "Microsoft",
+        "Adobe",
+        "Paytm"
+      ]
+    },
+    {
+      "day": 23,
+      "question_no": "Q92",
+      "problem_statement": "Find maximum occurring character.",
+      "companies": [
+        "Microsoft",
+        "Adobe",
+        "Paytm"
+      ]
+    },
+    {
+      "day": 24,
+      "question_no": "Q93",
+      "problem_statement": "Check string rotation.",
+      "companies": [
+        "Microsoft",
+        "Adobe",
+        "Paytm"
+      ]
+    },
+    {
+      "day": 24,
+      "question_no": "Q94",
+      "problem_statement": "Compress a string.",
+      "companies": [
+        "Microsoft",
+        "Adobe",
+        "Paytm"
+      ]
+    },
+    {
+      "day": 24,
+      "question_no": "Q95",
+      "problem_statement": "Find longest word.",
+      "companies": [
+        "TCS",
+        "Infosys",
+        "Wipro"
+      ]
+    },
+    {
+      "day": 24,
+      "question_no": "Q96",
+      "problem_statement": "Remove duplicate characters.",
+      "companies": [
+        "Microsoft",
+        "Adobe",
+        "Paytm"
+      ]
+    },
+    {
+      "day": 25,
+      "question_no": "Q97",
+      "problem_statement": "Merge two sorted arrays.",
+      "companies": [
+        "Amazon",
+        "Deloitte",
+        "Capgemini"
+      ]
+    },
+    {
+      "day": 25,
+      "question_no": "Q98",
+      "problem_statement": "Find common characters in strings.",
+      "companies": [
+        "Microsoft",
+        "Adobe",
+        "Paytm"
+      ]
+    },
+    {
+      "day": 25,
+      "question_no": "Q99",
+      "problem_statement": "Sort names alphabetically.",
+      "companies": [
+        "Amazon",
+        "Deloitte",
+        "Capgemini"
+      ]
+    },
+    {
+      "day": 25,
+      "question_no": "Q100",
+      "problem_statement": "Sort words by length.",
+      "companies": [
+        "Amazon",
+        "Deloitte",
+        "Capgemini"
+      ]
+    },
+    {
+      "day": 26,
+      "question_no": "Q101",
+      "problem_statement": "Create number guessing game.",
+      "companies": [
+        "TCS",
+        "Accenture",
+        "Cognizant"
+      ]
+    },
+    {
+      "day": 26,
+      "question_no": "Q102",
+      "problem_statement": "Create voting eligibility system.",
+      "companies": [
+        "TCS",
+        "Accenture",
+        "Cognizant"
+      ]
+    },
+    {
+      "day": 26,
+      "question_no": "Q103",
+      "problem_statement": "Create ATM simulation.",
+      "companies": [
+        "TCS",
+        "Accenture",
+        "Cognizant"
+      ]
+    },
+    {
+      "day": 26,
+      "question_no": "Q104",
+      "problem_statement": "Create quiz application.",
+      "companies": [
+        "TCS",
+        "Accenture",
+        "Cognizant"
+      ]
+    },
+    {
+      "day": 27,
+      "question_no": "Q105",
+      "problem_statement": "Create student record management system.",
+      "companies": [
+        "TCS",
+        "Accenture",
+        "Cognizant"
+      ]
+    },
+    {
+      "day": 27,
+      "question_no": "Q106",
+      "problem_statement": "Create employee management system.",
+      "companies": [
+        "TCS",
+        "Accenture",
+        "Cognizant"
+      ]
+    },
+    {
+      "day": 27,
+      "question_no": "Q107",
+      "problem_statement": "Create salary management system.",
+      "companies": [
+        "TCS",
+        "Accenture",
+        "Cognizant"
+      ]
+    },
+    {
+      "day": 27,
+      "question_no": "Q108",
+      "problem_statement": "Create marksheet generation system.",
+      "companies": [
+        "TCS",
+        "Accenture",
+        "Cognizant"
+      ]
+    },
+    {
+      "day": 28,
+      "question_no": "Q109",
+      "problem_statement": "Create library management system.",
+      "companies": [
+        "TCS",
+        "Accenture",
+        "Cognizant"
+      ]
+    },
+    {
+      "day": 28,
+      "question_no": "Q110",
+      "problem_statement": "Create bank account system.",
+      "companies": [
+        "TCS",
+        "Accenture",
+        "Cognizant"
+      ]
+    },
+    {
+      "day": 28,
+      "question_no": "Q111",
+      "problem_statement": "Create ticket booking system.",
+      "companies": [
+        "TCS",
+        "Accenture",
+        "Cognizant"
+      ]
+    },
+    {
+      "day": 28,
+      "question_no": "Q112",
+      "problem_statement": "Create contact management system.",
+      "companies": [
+        "TCS",
+        "Accenture",
+        "Cognizant"
+      ]
+    },
+    {
+      "day": 29,
+      "question_no": "Q113",
+      "problem_statement": "Create menu-driven calculator.",
+      "companies": [
+        "TCS",
+        "Accenture",
+        "Cognizant"
+      ]
+    },
+    {
+      "day": 29,
+      "question_no": "Q114",
+      "problem_statement": "Create menu-driven array operations system.",
+      "companies": [
+        "Amazon",
+        "Deloitte",
+        "Capgemini"
+      ]
+    },
+    {
+      "day": 29,
+      "question_no": "Q115",
+      "problem_statement": "Create menu-driven string operations system.",
+      "companies": [
+        "Microsoft",
+        "Adobe",
+        "Paytm"
+      ]
+    },
+    {
+      "day": 29,
+      "question_no": "Q116",
+      "problem_statement": "Create inventory management system.",
+      "companies": [
+        "TCS",
+        "Accenture",
+        "Cognizant"
+      ]
+    },
+    {
+      "day": 30,
+      "question_no": "Q117",
+      "problem_statement": "Create student record system using arrays and strings.",
+      "companies": [
+        "Amazon",
+        "Deloitte",
+        "Capgemini"
+      ]
+    },
+    {
+      "day": 30,
+      "question_no": "Q118",
+      "problem_statement": "Create mini library system.",
+      "companies": [
+        "TCS",
+        "Accenture",
+        "Cognizant"
+      ]
+    },
+    {
+      "day": 30,
+      "question_no": "Q119",
+      "problem_statement": "Create mini employee management system.",
+      "companies": [
+        "TCS",
+        "Accenture",
+        "Cognizant"
+      ]
+    },
+    {
+      "day": 30,
+      "question_no": "Q120",
+      "problem_statement": "Develop complete mini project using arrays, strings and functions.",
+      "companies": [
+        "Amazon",
+        "Deloitte",
+        "Capgemini"
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "date": "2026-05-28",
+      "assignment_day": 1,
+      "questions": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ]
+    },
+    {
+      "date": "2026-05-29",
+      "assignment_day": 2,
+      "questions": [
+        "Q5",
+        "Q6",
+        "Q7",
+        "Q8"
+      ]
+    },
+    {
+      "date": "2026-05-30",
+      "assignment_day": 3,
+      "questions": [
+        "Q9",
+        "Q10",
+        "Q11",
+        "Q12"
+      ]
+    },
+    {
+      "date": "2026-05-31",
+      "assignment_day": 4,
+      "questions": [
+        "Q13",
+        "Q14",
+        "Q15",
+        "Q16"
+      ]
+    },
+    {
+      "date": "2026-06-01",
+      "assignment_day": 5,
+      "questions": [
+        "Q17",
+        "Q18",
+        "Q19",
+        "Q20"
+      ]
+    },
+    {
+      "date": "2026-06-02",
+      "assignment_day": 6,
+      "questions": [
+        "Q21",
+        "Q22",
+        "Q23",
+        "Q24"
+      ]
+    },
+    {
+      "date": "2026-06-03",
+      "assignment_day": 7,
+      "questions": [
+        "Q25",
+        "Q26",
+        "Q27",
+        "Q28"
+      ]
+    },
+    {
+      "date": "2026-06-04",
+      "assignment_day": 8,
+      "questions": [
+        "Q29",
+        "Q30",
+        "Q31",
+        "Q32"
+      ]
+    },
+    {
+      "date": "2026-06-05",
+      "assignment_day": 9,
+      "questions": [
+        "Q33",
+        "Q34",
+        "Q35",
+        "Q36"
+      ]
+    },
+    {
+      "date": "2026-06-06",
+      "assignment_day": 10,
+      "questions": [
+        "Q37",
+        "Q38",
+        "Q39",
+        "Q40"
+      ]
+    },
+    {
+      "date": "2026-06-07",
+      "assignment_day": 11,
+      "questions": [
+        "Q41",
+        "Q42",
+        "Q43",
+        "Q44"
+      ]
+    },
+    {
+      "date": "2026-06-08",
+      "assignment_day": 12,
+      "questions": [
+        "Q45",
+        "Q46",
+        "Q47",
+        "Q48"
+      ]
+    },
+    {
+      "date": "2026-06-09",
+      "assignment_day": 13,
+      "questions": [
+        "Q49",
+        "Q50",
+        "Q51",
+        "Q52"
+      ]
+    },
+    {
+      "date": "2026-06-10",
+      "assignment_day": 14,
+      "questions": [
+        "Q53",
+        "Q54",
+        "Q55",
+        "Q56"
+      ]
+    },
+    {
+      "date": "2026-06-11",
+      "assignment_day": 15,
+      "questions": [
+        "Q57",
+        "Q58",
+        "Q59",
+        "Q60"
+      ]
+    },
+    {
+      "date": "2026-06-12",
+      "assignment_day": 16,
+      "questions": [
+        "Q61",
+        "Q62",
+        "Q63",
+        "Q64"
+      ]
+    },
+    {
+      "date": "2026-06-13",
+      "assignment_day": 17,
+      "questions": [
+        "Q65",
+        "Q66",
+        "Q67",
+        "Q68"
+      ]
+    },
+    {
+      "date": "2026-06-14",
+      "assignment_day": 18,
+      "questions": [
+        "Q69",
+        "Q70",
+        "Q71",
+        "Q72"
+      ]
+    },
+    {
+      "date": "2026-06-15",
+      "assignment_day": 19,
+      "questions": [
+        "Q73",
+        "Q74",
+        "Q75",
+        "Q76"
+      ]
+    },
+    {
+      "date": "2026-06-16",
+      "assignment_day": 20,
+      "questions": [
+        "Q77",
+        "Q78",
+        "Q79",
+        "Q80"
+      ]
+    },
+    {
+      "date": "2026-06-17",
+      "assignment_day": 21,
+      "questions": [
+        "Q81",
+        "Q82",
+        "Q83",
+        "Q84"
+      ]
+    },
+    {
+      "date": "2026-06-18",
+      "assignment_day": 22,
+      "questions": [
+        "Q85",
+        "Q86",
+        "Q87",
+        "Q88"
+      ]
+    },
+    {
+      "date": "2026-06-19",
+      "assignment_day": 23,
+      "questions": [
+        "Q89",
+        "Q90",
+        "Q91",
+        "Q92"
+      ]
+    },
+    {
+      "date": "2026-06-20",
+      "assignment_day": 24,
+      "questions": [
+        "Q93",
+        "Q94",
+        "Q95",
+        "Q96"
+      ]
+    },
+    {
+      "date": "2026-06-21",
+      "assignment_day": 25,
+      "questions": [
+        "Q97",
+        "Q98",
+        "Q99",
+        "Q100"
+      ]
+    },
+    {
+      "date": "2026-06-22",
+      "assignment_day": 26,
+      "questions": [
+        "Q101",
+        "Q102",
+        "Q103",
+        "Q104"
+      ]
+    },
+    {
+      "date": "2026-06-23",
+      "assignment_day": 27,
+      "questions": [
+        "Q105",
+        "Q106",
+        "Q107",
+        "Q108"
+      ]
+    },
+    {
+      "date": "2026-06-24",
+      "assignment_day": 28,
+      "questions": [
+        "Q109",
+        "Q110",
+        "Q111",
+        "Q112"
+      ]
+    },
+    {
+      "date": "2026-06-25",
+      "assignment_day": 29,
+      "questions": [
+        "Q113",
+        "Q114",
+        "Q115",
+        "Q116"
+      ]
+    },
+    {
+      "date": "2026-06-26",
+      "assignment_day": 30,
+      "questions": [
+        "Q117",
+        "Q118",
+        "Q119",
+        "Q120"
+      ]
+    }
+  ]
+}
