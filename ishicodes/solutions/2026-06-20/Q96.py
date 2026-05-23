@@ -1,3 +1,3 @@
 # Problem: Remove duplicate characters.
 
-print(''.join(dict.fromkeys(input().strip())))
+print("".join(dict.fromkeys(input().strip())))

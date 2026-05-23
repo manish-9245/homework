@@ -2,9 +2,16 @@
  * Problem: Check perfect number.
  */
 
-#include<stdio.h>
+#include <stdio.h>
 int main() {
-    int n,s=0;scanf("%d",&n);for(int i=1;i<n;i++)if(n%i==0)s+=i;if(s==n)printf("Yes");else printf("No");
-    return 0;
+  int n, s = 0;
+  scanf("%d", &n);
+  for (int i = 1; i < n; i++)
+    if (n % i == 0)
+      s += i;
+  if (s == n)
+    printf("Yes");
+  else
+    printf("No");
+  return 0;
 }
-

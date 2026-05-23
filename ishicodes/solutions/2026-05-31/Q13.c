@@ -2,9 +2,15 @@
  * Problem: Generate Fibonacci series.
  */
 
-#include<stdio.h>
+#include <stdio.h>
 int main() {
-    int n,a=0,b=1,c;scanf("%d",&n);while(n--){printf("%d ",a);c=a+b;a=b;b=c;}
-    return 0;
+  int n, a = 0, b = 1, c;
+  scanf("%d", &n);
+  while (n--) {
+    printf("%d ", a);
+    c = a + b;
+    a = b;
+    b = c;
+  }
+  return 0;
 }
-

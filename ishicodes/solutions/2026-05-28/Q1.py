@@ -1,4 +1,4 @@
 # Problem: Calculate sum of first N natural numbers.
 
-n=int(input())
-print(n*(n+1)//2)
+n = int(input())
+print(n * (n + 1) // 2)
