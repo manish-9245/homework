@@ -4,7 +4,6 @@
     "builder": "NIXPACKS"
   },
   "deploy": {
-    "startCommand": "cd ishicodes && npm start",
     "restartPolicyType": "ON_FAILURE"
   }
 }

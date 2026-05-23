@@ -1,5 +1,5 @@
 node_modules
-.DS_Store
-.env
-.tmp
 .next
+.tmp
+.env
+.DS_Store
