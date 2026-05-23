@@ -4,7 +4,7 @@ import { jwtVerify } from 'jose';
 
 const JWT_SECRET = new TextEncoder().encode(process.env.JWT_SECRET || 'fallback_secret_key');
 
-export default async function proxy(req: NextRequest) {
+export async function proxy(req: NextRequest) {
   const token = req.cookies.get('auth_token')?.value;
 
   if (!token) {
