@@ -73,6 +73,16 @@ export default function Dashboard() {
     }
   };
 
+  const getNextScheduledDate = () => {
+    const todayStr = new Date().toISOString().split("T")[0];
+    const upcoming = schedule.filter((d) => d.date >= todayStr);
+    if (upcoming.length > 0) {
+      return upcoming[0].date;
+    }
+    return null;
+  };
+  const nextScheduledDate = getNextScheduledDate();
+
   const addToken = async (e: React.FormEvent) => {
     e.preventDefault();
     const res = await fetch("/api/tokens", {
@@ -417,6 +427,21 @@ export default function Dashboard() {
                   <div>
                     <strong>Day {d.day}</strong> —{" "}
                     <span style={{ color: "#475569" }}>{d.date}</span>
+                    {d.date === nextScheduledDate && (
+                      <span
+                        style={{
+                          marginLeft: "12px",
+                          background: "#eab308",
+                          color: "#fff",
+                          padding: "2px 8px",
+                          borderRadius: "12px",
+                          fontSize: "0.8rem",
+                          fontWeight: "bold",
+                        }}
+                      >
+                        Up Next, Scheduled for: {d.date}
+                      </span>
+                    )}
                   </div>
                   <div>
                     <span
@@ -440,7 +465,13 @@ export default function Dashboard() {
                           padding: "6px 0",
                         }}
                       >
-                        <div>{q}</div>
+                        <div style={{ flex: 1, paddingRight: "1rem" }}>
+                          <strong>{q}</strong>:{" "}
+                          <span style={{ color: "#475569" }}>
+                            {sol.problem_statement ||
+                              "No problem statement available"}
+                          </span>
+                        </div>
                         <div style={{ display: "flex", gap: "0.5rem" }}>
                           {sol.c ? (
                             <button
