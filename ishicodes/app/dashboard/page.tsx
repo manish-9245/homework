@@ -278,17 +278,19 @@ export default function Dashboard() {
               style={{ display: "flex", gap: "0.5rem", marginTop: "0.5rem" }}
             >
               <input
-                placeholder="Repo Owner (optional)"
+                placeholder="Repo Owner"
                 value={repoOwner}
                 onChange={(e) => setRepoOwner(e.target.value)}
+                required
               />
               <input
-                placeholder="Repo Name (optional)"
+                placeholder="Repo Name"
                 value={repoName}
                 onChange={(e) => setRepoName(e.target.value)}
+                required
               />
               <input
-                placeholder="Branch (optional)"
+                placeholder="Branch (default: main)"
                 value={branch}
                 onChange={(e) => setBranch(e.target.value)}
               />
