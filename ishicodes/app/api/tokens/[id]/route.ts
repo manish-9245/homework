@@ -3,10 +3,10 @@ import { pool } from 'lib/db';
 
 export async function DELETE(
   req: Request,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
   try {
-    const id = params.id;
+    const id = (await params).id;
     await pool.query('DELETE FROM tokens WHERE id = ?', [id]);
     return NextResponse.json({ success: true });
   } catch (error: any) {

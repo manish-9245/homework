@@ -21,10 +21,31 @@ export default function Dashboard() {
   const [activeTab, setActiveTab] = useState<"schedule" | "tokens" | "help">(
     "schedule",
   );
+  const [nextPush, setNextPush] = useState("");
 
   useEffect(() => {
     fetchTokens();
     fetchSchedule();
+
+    // Calculate next 9:00 AM
+    const updateCountdown = () => {
+      const now = new Date();
+      let target = new Date(now);
+      target.setHours(9, 0, 0, 0);
+      if (now > target) {
+        target.setDate(target.getDate() + 1);
+      }
+
+      const diff = target.getTime() - now.getTime();
+      const h = Math.floor(diff / (1000 * 60 * 60));
+      const m = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+      const s = Math.floor((diff % (1000 * 60)) / 1000);
+      setNextPush(`${h}h ${m}m ${s}s`);
+    };
+
+    updateCountdown();
+    const interval = setInterval(updateCountdown, 1000);
+    return () => clearInterval(interval);
   }, []);
 
   const fetchTokens = async () => {
@@ -163,7 +184,20 @@ export default function Dashboard() {
           marginBottom: "1rem",
         }}
       >
-        <h1>ishicodes Admin</h1>
+        <div style={{ display: "flex", alignItems: "baseline", gap: "1rem" }}>
+          <h1>ishicodes Admin</h1>
+          <span
+            style={{
+              fontSize: "0.9rem",
+              color: "#64748b",
+              background: "#f1f5f9",
+              padding: "0.25rem 0.75rem",
+              borderRadius: "16px",
+            }}
+          >
+            Next auto-push in: <strong>{nextPush}</strong>
+          </span>
+        </div>
         <div style={{ display: "flex", gap: "0.5rem" }}>
           <button onClick={handleLogout} style={{ background: "#ef4444" }}>
             Logout
