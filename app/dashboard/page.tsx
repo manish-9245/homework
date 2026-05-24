@@ -186,15 +186,15 @@ export default function Dashboard() {
 
   return (
     <div className="container">
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "space-between",
-          alignItems: "center",
-          marginBottom: "1rem",
-        }}
-      >
-        <div style={{ display: "flex", alignItems: "baseline", gap: "1rem" }}>
+      <div className="flex-header">
+        <div
+          style={{
+            display: "flex",
+            alignItems: "baseline",
+            gap: "1rem",
+            flexWrap: "wrap",
+          }}
+        >
           <h1>ishicodes Admin</h1>
           <span
             style={{
@@ -208,7 +208,7 @@ export default function Dashboard() {
             Next auto-push in: <strong>{nextPush}</strong>
           </span>
         </div>
-        <div style={{ display: "flex", gap: "0.5rem" }}>
+        <div className="flex-row-wrap">
           <button onClick={handleLogout} style={{ background: "#ef4444" }}>
             Logout
           </button>
@@ -218,15 +218,7 @@ export default function Dashboard() {
         </div>
       </div>
 
-      <div
-        style={{
-          display: "flex",
-          gap: "1rem",
-          marginBottom: "2rem",
-          borderBottom: "1px solid #e2e8f0",
-          paddingBottom: "1rem",
-        }}
-      >
+      <div className="tabs">
         <button
           onClick={() => setActiveTab("schedule")}
           style={{
@@ -274,9 +266,7 @@ export default function Dashboard() {
               onChange={(e) => setGithubUsername(e.target.value)}
               required
             />
-            <div
-              style={{ display: "flex", gap: "0.5rem", marginTop: "0.5rem" }}
-            >
+            <div className="form-grid">
               <input
                 placeholder="Repo Owner"
                 value={repoOwner}
@@ -330,74 +320,76 @@ export default function Dashboard() {
           {loading ? (
             <p>Loading...</p>
           ) : (
-            <table>
-              <thead>
-                <tr>
-                  <th>User</th>
-                  <th>Repo</th>
-                  <th>Last Push</th>
-                  <th>Actions</th>
-                </tr>
-              </thead>
-              <tbody>
-                {tokens.length === 0 ? (
+            <div className="table-container">
+              <table>
+                <thead>
                   <tr>
-                    <td colSpan={3} style={{ textAlign: "center" }}>
-                      No tokens found
-                    </td>
+                    <th>User</th>
+                    <th>Repo</th>
+                    <th>Last Push</th>
+                    <th>Actions</th>
                   </tr>
-                ) : (
-                  tokens.map((t) => (
-                    <tr key={t.id}>
-                      <td>
-                        <strong>{t.github_username}</strong>
-                      </td>
-                      <td>
-                        {t.repo_owner && t.repo_name ? (
-                          <span>
-                            {t.repo_owner}/{t.repo_name}
-                            {t.branch ? ` (${t.branch})` : ""}
-                          </span>
-                        ) : (
-                          <span style={{ color: "#94a3b8" }}>
-                            not configured
-                          </span>
-                        )}
-                      </td>
-                      <td>
-                        {t.last_push
-                          ? new Date(t.last_push).toLocaleString()
-                          : "Never"}
-                      </td>
-                      <td>
-                        <div style={{ display: "flex", gap: "0.5rem" }}>
-                          <button
-                            onClick={() => triggerPush(t.id)}
-                            style={{
-                              background: "#dcfce7",
-                              color: "#166534",
-                              padding: "0.5rem 1rem",
-                            }}
-                          >
-                            Push Now
-                          </button>
-                          <button
-                            onClick={() => deleteToken(t.id)}
-                            style={{
-                              background: "#fee2e2",
-                              color: "#dc2626",
-                              padding: "0.5rem 1rem",
-                            }}
-                          >
-                            Delete
-                          </button>
-                        </div>
+                </thead>
+                <tbody>
+                  {tokens.length === 0 ? (
+                    <tr>
+                      <td colSpan={4} style={{ textAlign: "center" }}>
+                        No tokens found
                       </td>
                     </tr>
-                  ))
-                )}
-              </tbody>
-            </table>
+                  ) : (
+                    tokens.map((t) => (
+                      <tr key={t.id}>
+                        <td>
+                          <strong>{t.github_username}</strong>
+                        </td>
+                        <td>
+                          {t.repo_owner && t.repo_name ? (
+                            <span>
+                              {t.repo_owner}/{t.repo_name}
+                              {t.branch ? ` (${t.branch})` : ""}
+                            </span>
+                          ) : (
+                            <span style={{ color: "#94a3b8" }}>
+                              not configured
+                            </span>
+                          )}
+                        </td>
+                        <td>
+                          {t.last_push
+                            ? new Date(t.last_push).toLocaleString()
+                            : "Never"}
+                        </td>
+                        <td>
+                          <div className="flex-row-wrap">
+                            <button
+                              onClick={() => triggerPush(t.id)}
+                              style={{
+                                background: "#dcfce7",
+                                color: "#166534",
+                                padding: "0.5rem 1rem",
+                              }}
+                            >
+                              Push Now
+                            </button>
+                            <button
+                              onClick={() => deleteToken(t.id)}
+                              style={{
+                                background: "#fee2e2",
+                                color: "#dc2626",
+                                padding: "0.5rem 1rem",
+                              }}
+                            >
+                              Delete
+                            </button>
+                          </div>
+                        </td>
+                      </tr>
+                    ))
+                  )}
+                </tbody>
+              </table>
+            </div>
           )}
         </>
       )}
@@ -419,13 +411,7 @@ export default function Dashboard() {
                   borderRadius: 8,
                 }}
               >
-                <div
-                  style={{
-                    display: "flex",
-                    justifyContent: "space-between",
-                    alignItems: "center",
-                  }}
-                >
+                <div className="schedule-header">
                   <div>
                     <strong>Day {d.day}</strong> —{" "}
                     <span style={{ color: "#475569" }}>{d.date}</span>
@@ -441,15 +427,12 @@ export default function Dashboard() {
                           fontWeight: "bold",
                         }}
                       >
-                        Up Next, Scheduled for: {d.date}
+                        Up Next
                       </span>
                     )}
                   </div>
                   <div>
-                    <span
-                      className="badge badge-success"
-                      style={{ marginRight: 8 }}
-                    >
+                    <span className="badge badge-success">
                       {d.questions.length} questions
                     </span>
                   </div>
@@ -458,15 +441,7 @@ export default function Dashboard() {
                   {d.questions.map((q: string) => {
                     const sol = d.solutions?.[q] || {};
                     return (
-                      <div
-                        key={q}
-                        style={{
-                          display: "flex",
-                          justifyContent: "space-between",
-                          alignItems: "center",
-                          padding: "6px 0",
-                        }}
-                      >
+                      <div key={q} className="schedule-row">
                         <div style={{ flex: 1, paddingRight: "1rem" }}>
                           <strong>{q}</strong>:{" "}
                           <span style={{ color: "#475569" }}>
@@ -474,7 +449,7 @@ export default function Dashboard() {
                               "No problem statement available"}
                           </span>
                         </div>
-                        <div style={{ display: "flex", gap: "0.5rem" }}>
+                        <div className="flex-row-wrap">
                           {sol.c ? (
                             <button
                               onClick={() => viewSolution(d.date, q, "c")}

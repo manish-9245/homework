@@ -32,7 +32,10 @@ export default function Login() {
   };
 
   return (
-    <div className="container" style={{ maxWidth: "400px", marginTop: "10vh" }}>
+    <div
+      className="container"
+      style={{ maxWidth: "400px", margin: "10vh auto" }}
+    >
       <form onSubmit={handleLogin}>
         <h1 style={{ textAlign: "center", marginBottom: "1.5rem" }}>
           ishicodes Admin

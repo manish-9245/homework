@@ -61,9 +61,13 @@ export default function CodeModal({
             justifyContent: "space-between",
             alignItems: "center",
             marginBottom: 8,
+            gap: "1rem",
+            flexWrap: "wrap",
           }}
         >
-          <div style={{ fontWeight: 700 }}>{title || "Solution"}</div>
+          <div style={{ fontWeight: 700, wordBreak: "break-all" }}>
+            {title || "Solution"}
+          </div>
           <button
             onClick={onClose}
             style={{
@@ -72,6 +76,7 @@ export default function CodeModal({
               border: "none",
               padding: "6px 10px",
               borderRadius: 6,
+              marginLeft: "auto",
             }}
           >
             Close
